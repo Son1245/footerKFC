@@ -1,0 +1,60 @@
+
+
+
+footer {
+background-color: #ffffff; 
+padding: 20px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.footer-container {
+display: flex; 
+justify-content: space-between; 
+flex-wrap: nowrap; /* Không cho phép các mục xuống dòng */
+overflow-x: auto; /* Cuộn ngang nếu cần */
+max-width: 1200px; /* Chiều rộng tối đa của footer */
+margin: 0 auto; /* Căn giữa footer */
+}
+
+.footer-section {
+flex: 1; /* Mỗi mục chiếm đều không gian */
+min-width: 150px; /* Đặt chiều rộng tối thiểu */
+margin: 10px; /* Khoảng cách giữa các mục */
+text-align: center; /* Căn giữa nội dung */
+}
+
+h3 {
+margin: 10px 0; /* Căn lề cho tiêu đề */
+}
+
+ul {
+list-style-type: none; /* Không có điểm đầu dòng */
+padding: 0; /* Xóa padding */
+}
+
+li {
+margin: 5px 0; /* Khoảng cách giữa các mục danh sách */
+}
+
+a {
+text-decoration: none; /* Xóa gạch chân */
+color: rgb(15, 79, 144); /* Màu chữ của liên kết */
+}
+
+.social-link {
+text-align: center; /* Căn giữa cho phần social link */
+margin-top: 20px; /* Khoảng cách trên */
+}
+
+img {
+max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng */
+height: auto; /* Giữ tỷ lệ hình ảnh */
+}
+.left-align {
+text-align: left; /* Căn trái cho tiêu đề */
+}
+
+.left-align-list {
+text-align: left; /* Căn trái cho danh sách */
+padding-left: 20px; /* Khoảng cách bên trái cho danh sách */
+}
